@@ -1,9 +1,9 @@
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import {NavigationContainer} from '@react-navigation/native';
 import {Text, StyleSheet, View} from 'react-native';
 import React, {Component} from 'react';
 import Login from './screen/Login';
 import Splash from './screen/Splash';
-import {NavigationContainer} from '@react-navigation/native';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Home from './screen/Home';
 import HomeFull from './screen/HomeFull';
 import Categories from './screen/Categories';
@@ -13,7 +13,6 @@ import Favourites from './screen/Favourites';
 import Checkout from './screen/Checkout';
 import Facebook from './screen/Facebook';
 import Google from './screen/Google';
-import Crud from './screen/Splash';
 
 const Stack = createNativeStackNavigator();
 
